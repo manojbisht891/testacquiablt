@@ -39,7 +39,7 @@ addons:
 before_install:
   # Disable xdebug.
   - phpenv config-rm xdebug.ini
-  - composer self-update
+  - composer self-update --1
   - composer install
   # Exit build early if only documentation was changed in a Pull Request.
   - source ${BLT_DIR}/scripts/travis/exit_early
