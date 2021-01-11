@@ -3,7 +3,13 @@ project:
   human_name: 'BLTed 10'
   profile:
     name: lightning
-  local: {  }
+  local:
+    protocol: http
+    hostname: 'local.blt.com'
+tests:
+  server:
+    port: 80
+    url: http://local.blt.com
 git:
   default_branch: develop
   remotes:
