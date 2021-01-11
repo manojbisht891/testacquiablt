@@ -14,18 +14,18 @@ Feature: Web drivers
     Given I am on "/"
     Then the response status code should be 200
 
-  @api @javascript
-  Scenario: Check node creation by manoj
-    Given I am logged in as user with name "manoj"
-    Then I should be on "/user/2/edit"
+  # @api @javascript
+  # Scenario: Check node creation by manoj
+  #  Given I am logged in as user with name "manoj"
+  #  Then I should be on "/user/2/edit"
 
-  Scenario: Check user node creation
-    Given I am not logged in
-    And I am at "/user/login"
-    And for "name" I enter "manoj"
-    And for "pass" I enter "123456"
-    And I press the "Log in" button
-    Then I should be on "/user/2"
+  # Scenario: Check user node creation
+  #  Given I am not logged in
+  #  And I am at "/user/login"
+  #  And for "name" I enter "manoj"
+  #  And for "pass" I enter "123456"
+  #  And I press the "Log in" button
+  #  Then I should be on "/user/2"
 
   # @api
   # Scenario: Load page as authenticated user
