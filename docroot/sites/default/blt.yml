@@ -1,0 +1,9 @@
+project:
+  local:
+    hostname: local.blt.com
+    protocol: http
+  machine_name: blt
+drush:
+  aliases:
+    local: self
+    remote: blt.test

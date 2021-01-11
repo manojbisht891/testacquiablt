@@ -1,0 +1,12 @@
+project:
+  local:
+    hostname: local.example.com
+    protocol: http
+  machine_name: example
+  human_name: example
+drush:
+  aliases:
+    local: example.local
+    remote: example.remote
+drupal:
+  db: {  }
