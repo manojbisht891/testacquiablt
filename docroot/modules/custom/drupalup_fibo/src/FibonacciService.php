@@ -7,6 +7,11 @@ namespace Drupal\drupalup_fibo;
  */
 class FibonacciService {
 
+  /**
+   * Variable to store first 2 digits of fibonacci series.
+   *
+   * @var array
+   */
   protected $fiboSequence = [0, 1];
 
   /**
